@@ -14,6 +14,8 @@
 		8A52A8EF2ACD1E58004AD9C5 /* PJT_CameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52A8EE2ACD1E58004AD9C5 /* PJT_CameraTests.swift */; };
 		8A52A8F92ACD1E58004AD9C5 /* PJT_CameraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52A8F82ACD1E58004AD9C5 /* PJT_CameraUITests.swift */; };
 		8A52A8FB2ACD1E58004AD9C5 /* PJT_CameraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52A8FA2ACD1E58004AD9C5 /* PJT_CameraUITestsLaunchTests.swift */; };
+		8A52A90A2ACD1F97004AD9C5 /* PerspectiveTransformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52A9092ACD1F97004AD9C5 /* PerspectiveTransformView.swift */; };
+		8A52A90C2ACD204C004AD9C5 /* applyPerspectiveTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A52A90B2ACD204C004AD9C5 /* applyPerspectiveTransform.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8A52A8F42ACD1E58004AD9C5 /* PJT_CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PJT_CameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A52A8F82ACD1E58004AD9C5 /* PJT_CameraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PJT_CameraUITests.swift; sourceTree = "<group>"; };
 		8A52A8FA2ACD1E58004AD9C5 /* PJT_CameraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PJT_CameraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8A52A9092ACD1F97004AD9C5 /* PerspectiveTransformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveTransformView.swift; sourceTree = "<group>"; };
+		8A52A90B2ACD204C004AD9C5 /* applyPerspectiveTransform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = applyPerspectiveTransform.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				8A52A8DD2ACD1E57004AD9C5 /* PJT_CameraApp.swift */,
 				8A52A8DF2ACD1E57004AD9C5 /* ContentView.swift */,
+				8A52A9092ACD1F97004AD9C5 /* PerspectiveTransformView.swift */,
+				8A52A90B2ACD204C004AD9C5 /* applyPerspectiveTransform.swift */,
 				8A52A8E12ACD1E57004AD9C5 /* Assets.xcassets */,
 				8A52A8E32ACD1E57004AD9C5 /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			files = (
 				8A52A8E02ACD1E57004AD9C5 /* ContentView.swift in Sources */,
 				8A52A8DE2ACD1E57004AD9C5 /* PJT_CameraApp.swift in Sources */,
+				8A52A90C2ACD204C004AD9C5 /* applyPerspectiveTransform.swift in Sources */,
+				8A52A90A2ACD1F97004AD9C5 /* PerspectiveTransformView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
